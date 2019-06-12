@@ -3,7 +3,7 @@
 % $Id: Presentation-JSM2015-SynBDS.tex 1717 2015-08-12 05:08:49Z lv39 $
 
 % normal line:
-\documentclass[xcolor=table,compress]{beamer}
+\documentclass[aspectratio=169,xcolor=table,compress]{beamer}
 % to create notes:
 %\documentclass[handout,notes=only]{beamer}
 % to create handouts
@@ -71,32 +71,29 @@
 {
 % alternative, could always use
 %\usetheme{Census}
-\usetheme{cornell}
-\useoutertheme{cornell}
+%\usetheme{cornell}
+%\useoutertheme{cornell}
 
 
 % For Census template
-%\usetheme{Malmoe}
-%\usecolortheme{dove}
-%\setbeamertemplate{background canvas}{\includegraphics
-%        [height=\paperheight]{Census2014-background-4x3}}
-%\setbeamertemplate{footline}[frame number]% page numbers and using Warsaw theme%
-%\setbeamertemplate{navigation symbols}{}
+\usetheme{Malmoe}
+\usecolortheme{dove}
+\setbeamertemplate{background canvas}{\includegraphics
+        [height=\paperheight]{Census2014-background-4x3}}
+\setbeamertemplate{footline}[frame number]% page numbers and using Warsaw theme%
+\setbeamertemplate{navigation symbols}{}
 }
-%\setbeamercovered{dynamic}
+\setbeamercovered{dynamic}
 
 
 %============================================================
 % Title
 %============================================================
 
-\input{../title}
 
-\title[SynBDS]{\mytitle}
-\author[Miranda, Vilhuber]{%
-Javier Miranda\inst{2}%
-\and %
-  Lars~Vilhuber\inst{1} 
+\title[Testing]{This is a test}
+\author[Vilhuber]{%
+  Lars~Vilhuber\inst{1}$,$\inst{2}
 }
 
 \institute[Cornell]{
